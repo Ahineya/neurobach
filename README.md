@@ -75,4 +75,4 @@ Replace __YOUR_MODEL_NAME__ with the model name you have used during the trainin
 
 A new piece will be generated in the `generated` directory.
 
-Pay attention, that all the generated pieces are quantized to a white piano keys. You can take a look in `bach.py` file to turn it off if you don't need it, or to create a new scale for quantizing.
+Pay attention, that all generated pieces are quantized to a white piano keys. You can take a look in `bach.py` file to turn it off if you don't need it, or to create a new scale for quantizing.
