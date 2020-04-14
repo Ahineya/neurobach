@@ -74,3 +74,5 @@ $ python3 generate.py --model-name YOUT_MODEL_NAME --temperature TEMPERATURE
 Replace __YOUR_MODEL_NAME__ with the model name you have used during the training phase. Replace __TEMPERATURE__ with a float value from 0 to somewhere around 3. 1.5 is fine for the 'bach' model.
 
 A new piece will be generated in the `generated` directory.
+
+Pay attention, that all the generated pieces are quantized to a white piano keys. You can take a look in `bach.py` file to turn it off if you don't need it, or to create a new scale for quantizing.
